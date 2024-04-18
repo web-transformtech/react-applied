@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+/* .background-image {
+  background-image: url("../images/headeback.webp");
+  background-color: #000000d0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+} */
+.background-image {
+    background-image: linear-gradient(
+            45deg,
+            transparent 0%,
+            transparent 27%,
+            rgba(214, 214, 214, 0.06) 27%,
+            rgba(214, 214, 214, 0.06) 38%,
+            transparent 38%,
+            transparent 100%
+        ),
+        linear-gradient(
+            45deg,
+            transparent 0%,
+            transparent 39%,
+            rgba(214, 214, 214, 0.06) 39%,
+            rgba(214, 214, 214, 0.06) 68%,
+            transparent 68%,
+            transparent 100%
+        ),
+        linear-gradient(
+            90deg,
+            transparent 0%,
+            transparent 74%,
+            rgba(214, 214, 214, 0.06) 74%,
+            rgba(214, 214, 214, 0.06) 79%,
+            transparent 79%,
+            transparent 100%
+        ),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.8156862745098039), rgba(0, 0, 0, 0.8156862745098039));
+    /* background-image: linear-gradient(
+      135deg,
+      transparent 0%,
+      transparent 50%,
+      rgba(159, 159, 159, 0.07) 50%,
+      rgba(159, 159, 159, 0.07) 77%,
+      transparent 77%,
+      transparent 100%
+    ),
+    linear-gradient(
+      90deg,
+      transparent 0%,
+      transparent 91%,
+      rgba(159, 159, 159, 0.07) 91%,
+      rgba(159, 159, 159, 0.07) 99%,
+      transparent 99%,
+      transparent 100%
+    ),
+    linear-gradient(
+      135deg,
+      transparent 0%,
+      transparent 24%,
+      rgba(159, 159, 159, 0.07) 24%,
+      rgba(159, 159, 159, 0.07) 63%,
+      transparent 63%,
+      transparent 100%
+    ),
+    linear-gradient(
+      0deg,
+      transparent 0%,
+      transparent 49%,
+      rgba(159, 159, 159, 0.07) 49%,
+      rgba(159, 159, 159, 0.07) 63%,
+      transparent 63%,
+      transparent 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.8156862745098039),
+      rgba(0, 0, 0, 0.8156862745098039)
+    ); */
+}
+.carrerback {
+    /* background-image: url('../images/carrer.webp'); */
+    background-color: #000000d0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.clip {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+.learnback {
+    background-image: url('../images/learn.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bgshadow {
+    box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.1),
+        0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.bgshadow1 {
+    box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.3),
+        0 6px 20px 0 rgba(0, 0, 0, 0.16);
+}
+.figmsShadow {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.academic-card {
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    transition: transform ease 300ms;
+}
+.academic-card:hover {
+    transform: translate(0, -600px);
+    position: absolute;
+}
+.card:hover {
+    transform: translate(0, -600px);
+}
+.primaryHover {
+    background-color: rgba(255, 161, 51, 0.63);
+}
+.element {
+    transform: translateY(0px);
+    transition: 0.5s;
+    overflow: none !important;
+}
+.cardElemts {
+    transform: translateY(800px);
+    /* display: none; */
+    transition: 0.7s;
+}
+.cardHeader {
+    transform: translateY(366px);
+    transition: 0.5s;
+}
+.element:hover .cardHeader {
+    transform: translateY(50px);
+}
+.element:hover .cardElemts {
+    transform: translateY(120px);
+    display: block;
+    /* background-color: rgba(0, 0, 0, 0.72); */
+}
+.element:hover .primaryHover {
+    background-color: rgba(255, 161, 51, 0);
+}
+.element:hover .elementTextCard {
+    transform: translateY(0px);
+}
+.elementTextCard {
+    transform: translateY(100px);
+    transition: 0.7s;
+    /* background-color: rgba(255, 161, 51, 0); */
+}
+
+/* desktop scroll */
+.deselement {
+    transform: translateY(0px);
+    transition: 0.5s;
+    overflow: none !important;
+}
+
+.descardElemts {
+    transform: translateY(800px);
+    /* display: none; */
+    transition: 0.7s;
+}
+
+.descardHeader {
+    transform: translateY(366px);
+    transition: 0.5s;
+}
+
+.deselement:hover .descardHeader {
+    transform: translateY(50px);
+}
+
+.deselement:hover .descardElemts {
+    transform: translateY(120px);
+    display: block;
+    /* background-color: rgba(0, 0, 0, 0.72); */
+}
+
+.deselement:hover .primaryHover {
+    background-color: rgba(255, 161, 51, 0);
+}
+
+.deselement:hover .elementTextCard {
+    transform: translateY(0px);
+}
+
+.elementTextCard {
+    transform: translateY(100px);
+    transition: 0.7s;
+    /* background-color: rgba(255, 161, 51, 0); */
+}
+/* end desktop scroll */
+#pla .slick-prev {
+    display: none;
+}
+#pla .slick-next {
+    bottom: 0;
+    top: 108% !important;
+    margin: 20px 0px;
+    border: 1px solid #7c0201 !important;
+    height: 50px !important;
+    width: 100% !important;
+}
+#pla .slick-next::before {
+    content: url('../images/slick-down.png') !important;
+}
+.boxglow {
+    box-shadow: rgba(202, 76, 72, 0.8) 0 0 90px 1px;
+}
+.image {
+    background: url('../images/footimagecolor.webp');
+    /* border-image: fill 0 linear-gradient(#00000091, #00000091); */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.shadow {
+    border-top: 8px solid #ccdaf5;
+}
+/* text Stroke animation start */
+.text-ani {
+    font-family: 'Josefin Sans';
+    font-optical-sizing: auto;
+    font-weight: bold;
+    width: 100%;
+    height: 80px;
+}
+.text-ani text {
+    text-transform: uppercase;
+    animation: stroke 5s infinite alternate;
+    stroke-width: 2;
+    stroke: #7c0201;
+    font-size: 40px;
+}
+@keyframes stroke {
+    0% {
+        fill: rgba(72, 138, 20, 0);
+        stroke: #7c0201;
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+        stroke-width: 2;
+    }
+    70% {
+        fill: rgba(72, 138, 20, 0);
+        stroke: #7c0201;
+    }
+    80% {
+        fill: rgba(72, 138, 20, 0);
+        stroke: #7c0201;
+        stroke-width: 3;
+    }
+    100% {
+        fill: #7c0201;
+        stroke: rgba(54, 95, 160, 0);
+        stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 0;
+        stroke-width: 0;
+    }
+}
+/* text stroke animation end */
+.loader {
+    --w: 10ch;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+    line-height: 1.4em;
+    letter-spacing: var(--w);
+    width: var(--w);
+    overflow: hidden;
+    white-space: nowrap;
+    color: #0000;
+    text-shadow:
+        calc(0 * var(--w)) 0 #000,
+        calc(-1 * var(--w)) 0 #000,
+        calc(-2 * var(--w)) 0 #000,
+        calc(-3 * var(--w)) 0 #000,
+        calc(-4 * var(--w)) 0 #000,
+        calc(-5 * var(--w)) 0 #000,
+        calc(-6 * var(--w)) 0 #000,
+        calc(-7 * var(--w)) 0 #000,
+        calc(-8 * var(--w)) 0 #000,
+        calc(-9 * var(--w)) 0 #000;
+    animation: l20 2s infinite linear;
+}
+.loader:before {
+    content: 'Loading...';
+}
+@keyframes l20 {
+    9.09% {
+        text-shadow:
+            calc(0 * var(--w)) -10px #000,
+            calc(-1 * var(--w)) 0 #000,
+            calc(-2 * var(--w)) 0 #000,
+            calc(-3 * var(--w)) 0 #000,
+            calc(-4 * var(--w)) 0 #000,
+            calc(-5 * var(--w)) 0 #000,
+            calc(-6 * var(--w)) 0 #000,
+            calc(-7 * var(--w)) 0 #000,
+            calc(-8 * var(--w)) 0 #000,
+            calc(-9 * var(--w)) 0 #000;
+    }
+    18.18% {
+        text-shadow:
+            calc(0 * var(--w)) 0 #000,
+            calc(-1 * var(--w)) -10px #000,
+            calc(-2 * var(--w)) 0 #000,
+            calc(-3 * var(--w)) 0 #000,
+            calc(-4 * var(--w)) 0 #000,
+            calc(-5 * var(--w)) 0 #000,
+            calc(-6 * var(--w)) 0 #000,
+            calc(-7 * var(--w)) 0 #000,
+            calc(-8 * var(--w)) 0 #000,
+            calc(-9 * var(--w)) 0 #000;
+    }
+    27.27% {
+        text-shadow:
+            calc(0 * var(--w)) 0 #000,
+            calc(-1 * var(--w)) 0 #000,
+            calc(-2 * var(--w)) -10px #000,
+            calc(-3 * var(--w)) 0 #000,
+            calc(-4 * var(--w)) 0 #000,
+            calc(-5 * var(--w)) 0 #000,
+            calc(-6 * var(--w)) 0 #000,
+            calc(-7 * var(--w)) 0 #000,
+            calc(-8 * var(--w)) 0 #000,
+            calc(-9 * var(--w)) 0 #000;
+    }
+    36.36% {
+        text-shadow:
+            calc(0 * var(--w)) 0 #000,
+            calc(-1 * var(--w)) 0 #000,
+            calc(-2 * var(--w)) 0 #000,
+            calc(-3 * var(--w)) -10px #000,
+            calc(-4 * var(--w)) 0 #000,
+            calc(-5 * var(--w)) 0 #000,
+            calc(-6 * var(--w)) 0 #000,
+            calc(-7 * var(--w)) 0 #000,
+            calc(-8 * var(--w)) 0 #000,
+            calc(-9 * var(--w)) 0 #000;
+    }
+    45.45% {
+        text-shadow:
+            calc(0 * var(--w)) 0 #000,
+            calc(-1 * var(--w)) 0 #000,
+            calc(-2 * var(--w)) 0 #000,
+            calc(-3 * var(--w)) 0 #000,
+            calc(-4 * var(--w)) -10px #000,
+            calc(-5 * var(--w)) 0 #000,
+            calc(-6 * var(--w)) 0 #000,
+            calc(-7 * var(--w)) 0 #000,
+            calc(-8 * var(--w)) 0 #000,
+            calc(-9 * var(--w)) 0 #000;
+    }
+    54.54% {
+        text-shadow:
+            calc(0 * var(--w)) 0 #000,
+            calc(-1 * var(--w)) 0 #000,
+            calc(-2 * var(--w)) 0 #000,
+            calc(-3 * var(--w)) 0 #000,
+            calc(-4 * var(--w)) 0 #000,
+            calc(-5 * var(--w)) -10px #000,
+            calc(-6 * var(--w)) 0 #000,
+            calc(-7 * var(--w)) 0 #000,
+            calc(-8 * var(--w)) 0 #000,
+            calc(-9 * var(--w)) 0 #000;
+    }
+    63.63% {
+        text-shadow:
+            calc(0 * var(--w)) 0 #000,
+            calc(-1 * var(--w)) 0 #000,
+            calc(-2 * var(--w)) 0 #000,
+            calc(-3 * var(--w)) 0 #000,
+            calc(-4 * var(--w)) 0 #000,
+            calc(-5 * var(--w)) 0 #000,
+            calc(-6 * var(--w)) -10px #000,
+            calc(-7 * var(--w)) 0 #000,
+            calc(-8 * var(--w)) 0 #000,
+            calc(-9 * var(--w)) 0 #000;
+    }
+    72.72% {
+        text-shadow:
+            calc(0 * var(--w)) 0 #000,
+            calc(-1 * var(--w)) 0 #000,
+            calc(-2 * var(--w)) 0 #000,
+            calc(-3 * var(--w)) 0 #000,
+            calc(-4 * var(--w)) 0 #000,
+            calc(-5 * var(--w)) 0 #000,
+            calc(-6 * var(--w)) 0 #000,
+            calc(-7 * var(--w)) -10px #000,
+            calc(-8 * var(--w)) 0 #000,
+            calc(-9 * var(--w)) 0 #000;
+    }
+    81.81% {
+        text-shadow:
+            calc(0 * var(--w)) 0 #000,
+            calc(-1 * var(--w)) 0 #000,
+            calc(-2 * var(--w)) 0 #000,
+            calc(-3 * var(--w)) 0 #000,
+            calc(-4 * var(--w)) 0 #000,
+            calc(-5 * var(--w)) 0 #000,
+            calc(-6 * var(--w)) 0 #000,
+            calc(-7 * var(--w)) 0 #000,
+            calc(-8 * var(--w)) -10px #000,
+            calc(-9 * var(--w)) 0 #000;
+    }
+    90.90% {
+        text-shadow:
+            calc(0 * var(--w)) 0 #000,
+            calc(-1 * var(--w)) 0 #000,
+            calc(-2 * var(--w)) 0 #000,
+            calc(-3 * var(--w)) 0 #000,
+            calc(-4 * var(--w)) 0 #000,
+            calc(-5 * var(--w)) 0 #000,
+            calc(-6 * var(--w)) 0 #000,
+            calc(-7 * var(--w)) 0 #000,
+            calc(-8 * var(--w)) 0 #000,
+            calc(-9 * var(--w)) -10px #000;
+    }
+}
